@@ -1,58 +1,65 @@
 <!DOCTYPE html>
-<head>
-</head>
-<body>
-   <form action="multumim.html">
-       <br/>
-       <br/>
-       <br/>
-     <table border="0" align="center">
-        <tr>
-         <td><label for="nume">Nume</label></td>
-         <td><input type="text" id="nume" autofocus></td>
-     </tr>
-     <tr>
-        <td><label for="prenume">Prenume</label></td>
-        <td><input type="text" id="prenume"></td>
-     </tr>
-     <tr>
-            <td><label for="nastere">Data nasterii</label></td>
-            <td><input type="date" id="nastere"></td>
-         </tr>
-    <tr>
-        <td><label for="tara">Tara de origine</label></td>
-        <td><select id="tara">
-            <option>*Alege Tara*</option>
-            <optgroup label="Europa">
-            <option>Moldova</option></optgroup>
-            <optgroup label="Asia">
-            <option>Rusia</option></optgroup>
-            <optgroup label="Africa">
-            <option>Nigeria</option></optgroup>
-        </select></td>
-    </tr>
-    <tr>
-            <td><label>Genul</label></td>
-            <td><input type="radio" name="g">M
-                <input type="radio" name="g">F</td>
-         </tr>
-         <tr>
-                <td><label>Descriere</label></td>
-                <td><textarea></textarea>
-        </tr>
-        <tr>
-                <td><label for="User">User Name</label></td>
-                <td><input type="text" id="User"></td>
+<html lang="en">
+    <head>
+        <title>Messagerie</title>
+    </head>
+    <body text="white">
+        <table width="595" height="40" bgcolor="#404040" align="center">
+            <tr>
+                <td text="white">&nbsp; New Message</td>
+                <td align="right"><img src="icons/minimize.svg"><img src="icons/unfold_more.svg">
+                    <img src="icons/x.svg"></td>
+            </tr>
+        </table>
+        <table border="1" align="center" width="595" height="464" style="border-collapse:collapse"><tr><td>
+        <table cellspacing="0" border="0" align="center" width="585" height="464">
+            <tr width="580" height="40">
+                <td><input type="email" placeholder="   Recipients"
+                    style="width: 585px; height: 35px; border-width:0;" autofocus><hr>
+                    <input type="text" placeholder="   Subject" style="width: 585px; height: 35px; border-width:0;"></td>
+            </tr>
+            <tr width="580" height="40">
+                <td>
+                        <hr><textarea placeholder=" Message" cols="81" rows="26" style=" border-width:0"></textarea><hr>
+                </td>
             </tr>
             <tr>
-                    <td><label for="User">Password</label></td>
-                    <td><input type="password" id="User"></td>
+                <td>
+                    <table border="0" width="574" height="36" align="center" style="width" style="border-collapse:collapse">
+                        <tr>
+                            <td><img src="icons/1.svg" alt=""></img></td>
+                            <td><img src="icons/2.svg" alt=""></td>
+                            <td><select style="border-width:0;"><option>Sans Serif</option></select></td>
+                            <td><img src="icons/text_.svg"><select style="border-width:0;"><option></option></select></td>
+                            <td><img src="icons/B.svg" alt=""></td>
+                            <td><img src="icons/I.svg" alt=""></td>
+                            <td><img src="icons/U.svg" alt=""></td>
+                            <td><img src="icons/A.svg" alt=""></td>
+                            <td><img src="icons/textstn.svg" alt=""></td>
+                            <td><img src="icons/123.svg" alt=""></td>
+                            <td><img src="icons/punct.svg" alt=""></td>
+                            <td><img src="icons/stinga.svg" alt=""></td>
+                            <td><img src="icons/dreapta.svg" alt=""></td>
+                            <td><img src="icons/jos.svg" alt=""></td>
+                        </tr>
+                    </table><hr>
+                    <table border="0" width="574" height="36" align="center" style="width">
+                        <tr>
+                            <td><button bgcolor="#1A73E8"> Send | <img src="icons/jos.svg" alt="" height="25"></button>
+                            <img src="icons/A.svg" alt="">
+                            <img src="icons/screp.svg" alt="">&nbsp;
+                            <img src="icons/lant.svg" alt="">&nbsp;  
+                            <img src="icons/smail.svg" alt="">&nbsp;  
+                            <img src="icons/drive.svg" alt="" height="18">&nbsp;  
+                            <img src="icons/image1.svg" alt="">&nbsp;  
+                            <img src="icons/lacat.svg" alt=""></td>
+                            <td align="right"><img src="icons/puncte.svg"><img src="icons/delete-24px.svg"></td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
-            <tr>
-                    <td colspan="2"><input type="checkbox">Sunt deacord cu <a href="terms.html" target="_blank">termenii</a></td>     
-            </tr>
-            <tr>
-                    <td colspan="2" align="center"><button>Trimite</button></td>
-   </form> 
+        </table>
+    </td></tr> </table>
+</table>
 </body>
 </html>
